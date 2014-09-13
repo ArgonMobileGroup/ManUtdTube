@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Man United Videos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="what_to_watch_title">What to Watch</string>
+    <string name="my_subscriptions_title">My Subscriptions</string>
+    <string name="uploads_title">Uploads</string>
+    <string name="history_title">History</string>
+    <string name="watch_later_title">Watch Later</string>
+
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">navigation drawer open</string>
+    <string name="navigation_drawer_close">navigation drawer close</string>
+
+    <!-- Contextual Menu -->
+    <string name="contextual_menu_add_to">Add to&#8230;</string>
+    <string name="contextual_menu_share">Share</string>
+
+</resources>

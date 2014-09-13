@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contextual_menu_layout"
+    android:layout_width="180.0dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/compact_video_card_contextual_menu_background"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffe1e1e1"
+        android:cacheColorHint="#ffe1e1e1"
+        android:listSelector="?defaultItemSelector" />
+
+</LinearLayout>

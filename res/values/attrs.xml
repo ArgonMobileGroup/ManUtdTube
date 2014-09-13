@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="defaultItemSelector" format="reference" />
+
+    <declare-styleable name="MUTubeTextView">
+        <attr name="robotoFont">
+            <enum name="none" value="-1" />
+            <enum name="light" value="0" />
+            <enum name="regular" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mut="http://schemas.android.com/apk/res/com.argon.android.apps.manutube"
+    android:id="@+id/contexual_menu_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="48.0dip"
+    android:orientation="horizontal"
+    android:padding="8.0dip" >
+
+    <com.argon.android.apps.manutdtube.widget.MUTubeTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="#ff333333"
+        android:textSize="@dimen/compact_video_card_contextual_menu_item_text_size"
+        mut:robotoFont="light" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:contentDescription="@string/app_name" />
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Compact Video Card -->
+    <dimen name="compact_video_card_thumbnail_background_border_width">1.0dip</dimen>
+    <dimen name="compact_video_card_duration_text_size">12.0sp</dimen>
+    <dimen name="compact_video_card_title_text_size">14.0sp</dimen>
+    <dimen name="compact_video_card_author_text_size">12.0sp</dimen>
+    <dimen name="compact_video_card_details_text_size">12.0sp</dimen>
+    <dimen name="compact_video_card_seperator_height">1.0dp</dimen>
+    <dimen name="compact_video_card_contextual_menu_item_text_size">16.0sp</dimen>
+
+    <!-- Navigation -->
+    <dimen name="navigation_drawer_width">240.0dp</dimen>
+    <dimen name="navigation_drawer_separator_height">1.0dp</dimen>
+    <dimen name="navigation_drawer_primary_entry_height">48.0dp</dimen>
+    <dimen name="navigation_drawer_primary_entry_thumbnail_width">32.0dp</dimen>
+    <dimen name="navigation_drawer_primary_entry_thumbnail_height">32.0dp</dimen>
+    <dimen name="navigation_drawer_primary_entry_text_size">16.0sp</dimen>
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.argon.android.apps.manutdtube.navigation.NavigationDrawerCheckableRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mut="http://schemas.android.com/apk/res/com.argon.android.apps.manutube"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/navigation_drawer_primary_entry_height" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navigation_drawer_separator_height"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/navigation_drawer_fragment_background" />
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navigation_drawer_separator_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="14.0dp"
+        android:layout_marginRight="14.0dp"
+        android:background="@color/navigation_drawer_divider" />
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="@dimen/navigation_drawer_primary_entry_thumbnail_width"
+        android:layout_height="@dimen/navigation_drawer_primary_entry_thumbnail_height"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/navigation_drawer_separator_height"
+        android:layout_marginLeft="14.0dp"
+        android:layout_marginRight="8.0dp"
+        android:contentDescription="@string/app_name"
+        android:paddingBottom="4.0dp"
+        android:paddingLeft="4.0dp"
+        android:paddingRight="4.0dp"
+        android:paddingTop="4.0dp" />
+
+    <com.argon.android.apps.manutdtube.widget.MUTubeTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/thumbnail"
+        android:paddingBottom="3.0dp"
+        android:paddingTop="3.0dp"
+        android:textColor="@color/navigation_drawer_primary_entry_text"
+        android:textSize="@dimen/navigation_drawer_primary_entry_text_size"
+        mut:robotoFont="regular" />
+
+</com.argon.android.apps.manutdtube.navigation.NavigationDrawerCheckableRelativeLayout>
