@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:mut="http://schemas.android.com/apk/res/com.argon.android.apps.manutube"
     android:id="@+id/contexual_menu_item"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="48.0dip"
     android:gravity="center_vertical"
     android:minHeight="48.0dip"
     android:orientation="horizontal"
@@ -11,7 +11,7 @@
 
     <com.argon.android.apps.manutdtube.widget.MUTubeTextView
         android:id="@+id/title"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ellipsize="end"
         android:singleLine="true"

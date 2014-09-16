@@ -9,6 +9,8 @@ import it.gmariotti.cardslib.library.internal.CardArrayAdapter;
 import it.gmariotti.cardslib.library.view.CardListView;
 
 import com.argon.android.apps.manutdtube.card.CompactVideoCard;
+import com.argon.android.apps.manutdtube.contextual.ContextualMenu;
+import com.argon.android.apps.manutdtube.contextual.ContextualMenuAdapter;
 import com.argon.android.apps.manutube.R;
 
 import android.annotation.SuppressLint;
@@ -18,6 +20,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 
 public class HomeFragment extends Fragment {
 
@@ -46,6 +50,33 @@ public class HomeFragment extends Fragment {
 				}
 
 			});
+
+			// Create ContextualMenu
+			ContextualMenu contextualMenu = new ContextualMenu(context);
+
+			String[] values = new String[] {
+					context.getString(R.string.contextual_menu_add_to),
+					context.getString(R.string.contextual_menu_share) };
+			ContextualMenuAdapter adapter = new ContextualMenuAdapter(context,
+					values);
+
+			contextualMenu.setAdapter(adapter);
+
+			contextualMenu.setOnItemClickListener(new OnItemClickListener() {
+
+				@Override
+				public void onItemClick(AdapterView<?> parent, View view,
+						int position, long id) {
+					// TODO Auto-generated method stub
+
+				}
+
+			});
+
+			// Add ContexualMenu to card
+			card.setContextualMenu(contextualMenu);
+
+			// Add card into list
 			cardList.add(card);
 		}
 		CardArrayAdapter adapter = new CardArrayAdapter(context, cardList);

@@ -3,8 +3,10 @@
 
     <color name="full_transparent">#00000000</color>
     <color name="primary_background">#ffededed</color>
+
     <!-- Action Bar -->
     <color name="action_bar_title_text">#ff666666</color>
+
     <!-- Navigation -->
     <color name="navigation_drawer_fragment_background">#ff333333</color>
     <color name="navigation_drawer_divider">#ff444444</color>
@@ -18,5 +20,6 @@
     <color name="compact_video_card_author">#ff999999</color>
     <color name="compact_video_card_details">#ff999999</color>
     <color name="compact_video_card_separator_background_color">#ffe1e1e1</color>
+    <color name="compact_video_card_contextual_menu_background">#ffe1e1e1</color>
 
 </resources>

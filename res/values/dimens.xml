@@ -9,6 +9,9 @@
     <dimen name="compact_video_card_details_text_size">12.0sp</dimen>
     <dimen name="compact_video_card_seperator_height">1.0dp</dimen>
     <dimen name="compact_video_card_contextual_menu_item_text_size">16.0sp</dimen>
+    <dimen name="compact_video_card_contextual_menu_width">180.0dp</dimen>
+    <dimen name="compact_video_card_contextual_menu_horizontal_offset">-120.5dp</dimen>
+    <dimen name="compact_video_card_contextual_menu_vertical_offset">0.5dp</dimen>
 
     <!-- Navigation -->
     <dimen name="navigation_drawer_width">240.0dp</dimen>
